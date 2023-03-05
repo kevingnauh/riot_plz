@@ -1,1 +1,0 @@
-visual for average attack points (or hp, etc) of champs by tags like 'fighter' , 'tank'

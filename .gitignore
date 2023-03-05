@@ -1,4 +1,4 @@
-__pycache__
+__pycache__/
 env/
 riot_api_key.py
 test.py
