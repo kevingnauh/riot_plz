@@ -1,1 +1,5 @@
+__pycache__
 env/
+riot_api_key.py
+test.py
+notes.txt

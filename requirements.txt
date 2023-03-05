@@ -2,3 +2,4 @@ riotwatcher
 pandas
 matplotlib
 streamlit
+plotly
