@@ -1,5 +1,13 @@
 __pycache__/
 env/
-riot_api_key.py
+
 test.py
+
+# riot api -- expires every 24 hours
+riot_api_key.py
+
+# for next step ideas
 notes.txt
+
+# api responses for reference
+dataset/
