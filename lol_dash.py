@@ -25,7 +25,7 @@ st.markdown("---")
 
 # display the name when the submit button is clicked
 if(st.sidebar.button('Submit')):
-    
+
     df = ld.recent_matches(name)
     elo = ld.summoner_detail(name)
 
@@ -35,7 +35,7 @@ if(st.sidebar.button('Submit')):
 
     with col1:
         champ_counts = df['champ_name'].value_counts().sort_values(ascending=True)
- 
+
         # Create a horizontal bar chart
         data = [go.Bar(
                     x=champ_counts.values,
@@ -55,7 +55,7 @@ if(st.sidebar.button('Submit')):
         fig = go.Figure(data=data, layout=layout)
 
         st.plotly_chart(fig, use_container_width=True)
-    
+
     with col2:
 
         st.dataframe(df)
