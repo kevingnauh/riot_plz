@@ -1,4 +1,4 @@
-from riotwatcher import LolWatcher, ApiError
+from riotwatcher import LolWatcher
 import riot_api_key 
 import pandas as pd
 
